@@ -2,13 +2,19 @@
 @import "./Base/_variables.scss";
 @import "./Componentes/home.scss";
 @import "./Componentes/header.scss";
+@import "./Componentes/about.scss";
 
 html,
 body,
 #root {
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
-  
-  margin: 0;
+  flex-direction: column;  
+  margin: 0;  
+}
+
+body{
+  background-color: $color-7;
+  // background-color: #3e4246;
+  color: $color-2;
 }

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 import {BsFacebook} from 'react-icons/bs'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoYoutube} from 'react-icons/io'
@@ -12,13 +13,15 @@ function Header() {
         <header>
             <div className='header-container'>
                 <div className='name-container'>
+                    <Link className='navLink' to='/'>
                     <h1>NAHUEL BRACCHITTA</h1>
+                    </Link>
                     <h2>GUITARRISTA DE JAZZ, EDUCADOR </h2>
                 </div>
                 <div className='redes-container'>
-                    <a href='www.google.com'><BsFacebook className='social-icon'/></a>
-                    <a href='www.google.com'><FiInstagram className='social-icon'/></a>
-                    <a href='www.google.com'><IoLogoYoutube className='social-icon'/></a>
+                    <a href='https://www.youtube.com/channel/UCVVeaTpLbXeCXzMwvSFcnXg' target="_blank" rel="noreferrer"><BsFacebook className='social-icon'/></a>
+                    <a href='https://www.facebook.com/nahuelbracchittamusica' target="_blank" rel="noreferrer"><FiInstagram className='social-icon'/></a>
+                    <a href='https://www.instagram.com/nahuelbracchitta/' target="_blank" rel="noreferrer"><IoLogoYoutube className='social-icon'/></a>
                 </div>
             </div>
 
@@ -28,13 +31,16 @@ function Header() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto navBar-cont">
                             <NavDropdown title="CLASES" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#guitarra">GUITARRA</NavDropdown.Item>
-                                <NavDropdown.Item href="improvisacion">IMPROVISACIÓN</NavDropdown.Item>
-                                <NavDropdown.Item href="#ensambles">ENSAMBLES</NavDropdown.Item>
+                                <NavDropdown.Item>
+                                  <Link to='/guitarra' className='navLink'>GUITARRA</Link>  
+                                   </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link to='ensambles' className='navLink'>ENSAMBLES</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#musica">MÚSICA</Nav.Link>
-                            <Nav.Link href="#conciertos">CONCIERTOS</Nav.Link>
-                            <Nav.Link href="#Sobre mi">SOBRE MI</Nav.Link>
+                            <Nav.Link><Link to='musica' className='navLink'>MÚSICA</Link></Nav.Link>
+                            <Nav.Link><Link to='conciertos' className='navLink'>CONCIERTOS</Link></Nav.Link>
+                            <Nav.Link><Link to='about' className='navLink'>SOBRE MI</Link></Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>
