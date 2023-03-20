@@ -1,11 +1,20 @@
-header{
-    h1{
+header {
+    background-color: #D7D7D7;
+
+    h1 {
         color: $color-1;
-       
-            font-size: 3rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            text-align: center;
-          
+        font-size: 30px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navBar-cont {
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
