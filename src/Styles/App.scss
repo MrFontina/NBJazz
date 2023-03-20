@@ -3,6 +3,9 @@
 @import "./Componentes/home.scss";
 @import "./Componentes/header.scss";
 
-body{
-    height: 100%;
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
 }
