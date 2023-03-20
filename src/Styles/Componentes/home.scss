@@ -1,9 +1,15 @@
-main{
+main {
     background-color: $color-6;
     color: $color-2;
-    min-height: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }
