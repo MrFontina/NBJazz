@@ -1,8 +1,13 @@
 import React from 'react'
 
-function Guitarra() {
+function Guitarra({isOpen}) {
   return (
-    <div>Guitarra</div>
+    <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
+      <h3 className='subtitle'>CLASES DE GUITARRA</h3>
+      <div>
+        
+      </div>
+    </main>
   )
 }
 

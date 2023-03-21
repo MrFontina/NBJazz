@@ -54,8 +54,10 @@ function Header({ isOpen, setIsOpen }) {
                                     <Link to='/guitarra' className='navLink'>GUITARRA</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link></NavDropdown.Item>
-                                <NavDropdown.Item><Link to='ensambles' className='navLink'>ENSAMBLES</Link></NavDropdown.Item>
+                                    <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link>
+                                    </NavDropdown.Item>
+                                <NavDropdown.Item><Link to='ensambles' className='navLink'>ENSAMBLES</Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                             <Link to='musica' className='navLink'>MÚSICA</Link>
                             <Link to='conciertos' className='navLink'>CONCIERTOS</Link>

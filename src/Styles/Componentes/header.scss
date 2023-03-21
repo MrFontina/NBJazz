@@ -10,7 +10,9 @@ header{
     }
 
     .name-container{
-        
+        h1{
+            color: $color-1;
+        }
         h2{
             display: none;
         }
@@ -104,5 +106,19 @@ header{
     color: rgba(255, 255, 255, 0.55);
     &:hover{
         color:rgba(255, 255, 255, 0.75) ;
+    }
+}
+
+#collasible-nav-dropdown{
+   background-color:  rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; 
+}
+.dropdown-menu{
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    border: none;
+   
+}
+.dropdown-item{
+    &:hover{
+        background-color: $color-6;
     }
 }

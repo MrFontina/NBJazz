@@ -1,8 +1,13 @@
 import React from 'react'
 
-function Ensambles() {
+function Ensambles({isOpen}) {
   return (
-    <div>Ensambles</div>
+    <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
+      <h3 className='subtitle'>ENSAMBLES</h3>
+      <div>
+        
+      </div>
+    </main>
   )
 }
 
