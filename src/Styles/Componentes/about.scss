@@ -22,7 +22,7 @@
     img {
         display: block;
         margin: auto;
-        width: 260px;
+        width: 250px;
         filter: sepia(70%);
         border-radius: 10px;
     }
@@ -66,16 +66,24 @@
 @media (min-width: 992px){
     .subtitle{
         margin-top: 75px;
+        margin-bottom: 70px;
     }
     .about-container{
         margin-left: 40px;
         margin-right: 40px;
         p{
-            margin-left: 80px;
-            margin-right: 80px;
+            margin-left: 90px;
+            margin-right: 90px;
+            font-size: 22px;
+            line-height: 40px;
+            align-self: center;
         }
         img{
             width: 400px;
+        }
+        #p1{
+            margin-left: 200px;
+            margin-right: 200px;
         }
     }
 }
