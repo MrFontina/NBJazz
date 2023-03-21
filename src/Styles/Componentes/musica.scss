@@ -1,0 +1,18 @@
+.container-discos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    @media (min-width: 768px){
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+#bandcamp-oink{
+    display: none;
+}
+#bandcamp-aldas{
+    display: none;
+}
