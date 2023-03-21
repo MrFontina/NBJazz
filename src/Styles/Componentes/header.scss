@@ -23,6 +23,11 @@ header{
 }
 
 
+.navBar-cont{
+    align-items: start;
+}
+
+
 
 @media (min-width: 992px){
     header {
@@ -66,6 +71,7 @@ header{
     .navBar-cont {
         width: 100%;
         justify-content: space-evenly;
+        align-items: center;
     }
 }
 

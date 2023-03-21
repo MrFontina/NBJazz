@@ -37,15 +37,12 @@ function Header({ isOpen, setIsOpen }) {
 
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Container>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav">
-                        <button
-                            
-                            className="navbar-toggler"
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-toggler"
                             type="button"
-                            onClick={toggleNavbar}
-                        >
+                            onClick={toggleNavbar}>
+                        
                             <span className="navbar-toggler-icon"></span>
-                        </button>
+                        
                     </Navbar.Toggle>
 
                     <Navbar.Collapse id="responsive-navbar-nav"  className={`navbar-collapse collapse ${
@@ -60,9 +57,9 @@ function Header({ isOpen, setIsOpen }) {
                                     <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link to='ensambles' className='navLink'>ENSAMBLES</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link><Link to='musica' className='navLink'>MÚSICA</Link></Nav.Link>
-                            <Nav.Link><Link to='conciertos' className='navLink'>CONCIERTOS</Link></Nav.Link>
-                            <Nav.Link><Link to='about' className='navLink'>SOBRE MI</Link></Nav.Link>
+                            <Link to='musica' className='navLink'>MÚSICA</Link>
+                            <Link to='conciertos' className='navLink'>CONCIERTOS</Link>
+                            <Link to='about' className='navLink'>SOBRE MI</Link>
 
                         </Nav>
                     </Navbar.Collapse>
