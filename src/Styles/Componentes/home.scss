@@ -1,8 +1,18 @@
+.main-section{
+    margin-top: 150px;
+}
+
+.main-section-no-margin{
+    margin-top: 0px;
+}
+
+
 main {
    
     min-height: 100%;
     flex: 1;
     padding: 0 1rem;
+    
 
     .home-container{
         padding-top: 120px;

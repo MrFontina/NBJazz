@@ -1,8 +1,8 @@
 import React from 'react'
 
-function About() {
+function About({ isOpen }) {
   return (
-    <main>
+    <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
       <h3 className='subtitle'>SOBRE MI:</h3>
       <div className='about-container'>
         <img src='../../Images/3.JPG' alt='mi'id="img1"></img>
