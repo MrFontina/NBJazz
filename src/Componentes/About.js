@@ -5,7 +5,10 @@ function About({ isOpen }) {
     <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
       <h3 className='subtitle'>SOBRE MI:</h3>
       <div className='about-container'>
-        <iframe src="https://www.youtube.com/watch?v=jTeEGbeWz9w&ab_channel=NahuelBracchitta" id="img1" title='nahuel bracchitta mentes'></iframe>
+       <div  className='container-video' id="img1">
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/jTeEGbeWz9w?start=204&autoplay=1&mute=1" title="YouTube video player" frameborder="0" autoplay="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id='video1'></iframe>
+       </div>
+      
         {/* <img src='../../Images/2.JPG' alt='mi'id="img1"></img> */}
         <p id='p1'>
           Guitarrista de jazz de Buenos Aires. Cuenta con un disco solista y mas de 6 discos grabados en colaboración. Egresado de la Tecnicatura superior en jazz del Conservatorio Superior de Musica Manuel de Falla, luego de haber estudiado en la Escuela de Arte Leopoldo Marechal.</p>
