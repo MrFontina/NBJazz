@@ -7,9 +7,19 @@ function Home({ isOpen }) {
         <div className='home-container'>
          
       <img src='../../Images/12.png' alt='playing guitar'/> 
-         <p>
-          ¡Hola! Soy Nahuel Bracchitta, músico y compositor. Mi música se inspira en la fusión de diferentes estilos y culturas, creando una mezcla única de sonidos y emociones. En este sitio encontrarás información sobre mi música, videos, fotos y mucho más. ¡Bienvenido!  
-        </p>
+      <div className='home-p'>
+        <p>
+         ¡Hola! Soy Nahuel Bracchitta, guitarrista de <span>jazz</span>. Participo activamente de la vibrante escena del jazz de la ciudad de <span>Buenos Aires</span>, tanto con mi proyecto personal asi como colaborando con algunos de mis músicos favoritos!<br/>
+         
+          A lo largo de los años, he adquirido una gran cantidad de conocimientos sobre el arte de tocar la guitarra y la teoría musical. Como resultado, he decidido compartir todo lo que he he aprendido a través de <span>clases</span>, tanto presenciales como virtuales.       
+         <br/>
+           Mi objetivo es ayudar a otros músicos a desarrollar sus habilidades y alcanzar sus objetivos artísticos, sin importar su nivel de experiencia.
+         </p>
+      </div>
+         
+
+ 
+        
         </div>
      
         
