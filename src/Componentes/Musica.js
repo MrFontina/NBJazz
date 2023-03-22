@@ -10,7 +10,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="MENTES"
           subtitle="NAHUEL BRACCHITTA TRÍO"
-          img="../../Images/Discos/mentes.jpg"
+          img="../../Images/discos/mentes.jpg"
           alt="mentes"
           description="Primer disco solista de Nahuel Bracchitta Trio. Participaron Andres Elstein en batería y Raian Valença João en bajo eléctrico. Grabado en el 2018 en Estudio Insigno."
           spotify="https://open.spotify.com/album/5KoNCO7J1qQstm6I3mv7EJ"
@@ -20,7 +20,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="ALEPO"
           subtitle="JEANETTE NENEZIAN GRUPO"
-          img="../../Images/Discos/alepo.jpg"
+          img="../../Images/discos/alepo.jpg"
           alt="alepo"
           description="
         Segundo disco de la trompetista Jeanette Nenezian. Grabado en el 2021 en Estudio Insigno. Partciparon Juana Sallies en voz, Jeanette Nenezian en trompeta, Nahuel Bracchitta en guitarra, Esteban Freytes en bajo eléctrico y Andrés Dellacasa en batería."
@@ -31,7 +31,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="ASCENDENTE"
           subtitle="JEANETTE NENEZIAN GRUPO"
-          img="../../Images/Discos/ascendente.jpg"
+          img="../../Images/discos/ascendente.jpg"
           alt="ascendente"
           description="   
           Primer disco de la trompetista Jeanette Nenezian. Grabado en el 2018 en Estudio Insigno. Partciparon Jorge Cavero en saxo tenor, Jeanette Nenezian en trompeta, Nahuel Bracchitta en guitarra, Hernán Cassibba en contrabajo y Alejandro Lopez en batería."
@@ -42,7 +42,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="HOMENAJE"
           subtitle="HERNAN CASSIBBA GRUPO"
-          img="../../Images/Discos/homenaje.jpg"
+          img="../../Images/discos/homenaje.jpg"
           alt="Homenaje"
           description="   
           Primer disco del contrabajista Hernán Cassibba. Grabado en el 2018 en Estudio Insigno. Partciparon Lucas Goicochea en saxo alto, Gonzalo Rodriguez Vicente en saxo tenor, Nahuel Bracchitta en guitarra, Leonel Duck en piano, Hernán Cassibba en contrabajo y Axel Fillip en batería."
@@ -53,7 +53,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="OINK"
           subtitle="OINK"
-          img="../../Images/Discos/oink.png"
+          img="../../Images/discos/oink.png"
           alt="oink"
           description="   
           Oink es un power trío instrumental, con composiciones que mezclan el rock, el blues y el jazz. Formado por Raian Valença João en bajo eléctrico, Nahuel Bracchitta en guitarra, y Ariel Invernizzi en batería. Grabado en el 2019 en estudios Del Parral. Mezclado por Tommy Davies."
@@ -64,7 +64,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="PLUS ONE LIVE!"
           subtitle="GONZALO ALDAS TRIO"
-          img="../../Images/Discos/aldasplus.png"
+          img="../../Images/discos/aldasplus.png"
           alt="aldas live"
           description="   
           Segundo disco del bajista Gonzalo Aldas. Grabado en el 2019. Partciparon Gonzalo Rodriguez Vicente en saxo tenor, Nahuel Bracchitta en guitarra, Gonzalo Aldas en bajo acústico y Andrés Dellacasa en batería."
@@ -75,7 +75,7 @@ function Musica({ isOpen }) {
         <CardDiscos
           title="STANDARDS"
           subtitle="GONZALO ALDAS TRIO"
-          img="../../Images/Discos/aldasstandards.jpeg"
+          img="../../Images/discos/aldasstandards.jpeg"
           alt="aldas standards"
           description="   
           Primer disco del bajista Gonzalo Aldas. Grabado en el 2017 en Ideo estudios. Partciparon Rodrigo Agudelo en guitarra, Nahuel Bracchitta en guitarra, Gonzalo Aldas en bajo acústico y Sebastián Groshaus en batería. Invitados: Ernesto Jodos en piano, Ian Carl en batería y Mariano Loiacono en trompeta"
