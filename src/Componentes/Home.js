@@ -6,7 +6,7 @@ function Home({ isOpen }) {
     <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
         <div className='home-container'>
          
-      <img src='../../Images/12.png' alt='playing guitar'/> 
+      <img src='../../Images/12.png' alt='nahuel bracchitta playing jazz guitar'/> 
       <div className='home-p'>
         <p>
          ¡Hola! Soy Nahuel Bracchitta, guitarrista de <span>jazz</span>. Participo activamente de la vibrante escena del jazz de la ciudad de <span>Buenos Aires</span>, tanto con mi proyecto personal asi como colaborando con algunos de mis músicos favoritos!<br/>
