@@ -19,13 +19,11 @@ function Improvisacion({ isOpen }) {
         </p>
         
         <p id='impro-p3'>
-         En cuanto a los recursos rítmicos, estudiaremos <span>subdivisiones, </span>agrupaciones, polirritmias, desplazamientos y <span>métricas irregulares,</span> todos aplicados a progresiones armónicas de standards del jazz.
- 
+         En cuanto a los recursos rítmicos, estudiaremos <span>subdivisiones, </span>agrupaciones, polirritmias, desplazamientos y <span>métricas irregulares,</span> todos aplicados a progresiones armónicas de standards del jazz. <br/>
+ En resumen, las clases de improvisación te proporcionarán las herramientas necesarias para desarrollar tu creatividad musical y expresarte con soltura en el estilo del jazz, tanto en solos como en acompañamiento. 
         </p>
         <img src='../../Images/oink3.jpg' alt='grabacion disco oink' className='img-impro' id='impro-img-3'></img>
-        <p id='impro-p4'>
-          En resumen, las clases de improvisación te proporcionarán las herramientas necesarias para desarrollar tu creatividad musical y expresarte con soltura en el estilo del jazz, tanto en solos como en acompañamiento. 
-        </p>
+        
         </div>
         
        
