@@ -51,10 +51,10 @@ function Header({ isOpen, setIsOpen }) {
                         <Nav className="me-auto navBar-cont">
                             <NavDropdown title="CLASES" id="collasible-nav-dropdown">
                                 <NavDropdown.Item>
-                                    <Link to='/guitarra' className='navLink'>GUITARRA</Link>
+                                    <Link to='/clases_de_guitarra_jazz' className='navLink'>GUITARRA</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link>
+                                    <Link to="/clases_de_improvisacion_jazz" className='navLink'>IMPROVISACIÓN</Link>
                                     </NavDropdown.Item>
                                 <NavDropdown.Item disabled><Link to='ensambles' className='navLink' >ENSAMBLES</Link>
                                 </NavDropdown.Item>

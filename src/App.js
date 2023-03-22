@@ -22,9 +22,9 @@ function App() {
     <Header isOpen={isOpen} setIsOpen={setIsOpen}/>
     <Routes>
       <Route path="/" element={<Home isOpen={isOpen}/>}/>
-      <Route path="/guitarra" element={<Guitarra isOpen={isOpen}/>}/>
-      <Route path="improvisacion" element={<Improvisacion isOpen={isOpen}/>} />
-      <Route path="ensambles" element={<Ensambles isOpen={isOpen}/>} />
+      <Route path="/clases_de_guitarra_jazz" element={<Guitarra isOpen={isOpen}/>}/>
+      <Route path="/clases_de_improvisacion_jazz" element={<Improvisacion isOpen={isOpen}/>} />
+      <Route path="/ensambles" element={<Ensambles isOpen={isOpen}/>} />
       <Route path="/musica" element={<Musica isOpen={isOpen}/>} />
       <Route path="/conciertos" element={<Conciertos isOpen={isOpen}/>}  />
       <Route path="/about" element={<About isOpen={isOpen}/>} />     
