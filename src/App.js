@@ -9,6 +9,7 @@ import About from "./Componentes/About";
 import Conciertos from "./Componentes/Conciertos";
 import Musica from "./Componentes/Musica";
 import { useState } from "react";
+import Whatsapp from "./Componentes/whatsapp";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Route path="/conciertos" element={<Conciertos isOpen={isOpen}/>}  />
       <Route path="/about" element={<About isOpen={isOpen}/>} />     
     </Routes>
+    <Whatsapp/>
     </BrowserRouter>
     
     
