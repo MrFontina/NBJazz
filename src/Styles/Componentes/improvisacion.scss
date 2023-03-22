@@ -25,11 +25,14 @@
         align-items: center;
 
         p {
-            margin-top: 40px;
+            margin-top: 40px; 
+            text-align: center; 
+           @media (min-width: 992px){
             margin-left: 250px;
             margin-right: 250px;
-            text-align: center;
+        }          
         }
+        
     }
 
     .container-grid-bottom {
