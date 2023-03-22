@@ -56,7 +56,7 @@ function Header({ isOpen, setIsOpen }) {
                                 <NavDropdown.Item>
                                     <Link to="/improvisacion" className='navLink'>IMPROVISACIÓN</Link>
                                     </NavDropdown.Item>
-                                <NavDropdown.Item><Link to='ensambles' className='navLink'>ENSAMBLES</Link>
+                                <NavDropdown.Item disabled><Link to='ensambles' className='navLink' >ENSAMBLES</Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Link to='musica' className='navLink'>MÚSICA</Link>
