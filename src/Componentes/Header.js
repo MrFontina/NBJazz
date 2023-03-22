@@ -29,9 +29,9 @@ function Header({ isOpen, setIsOpen }) {
                     <h2>GUITARRISTA DE JAZZ, EDUCADOR </h2>
                 </div>
                 <div className='redes-container'>
-                    <a href='https://www.youtube.com/channel/UCVVeaTpLbXeCXzMwvSFcnXg' target="_blank" rel="noreferrer"><BsFacebook className='social-icon' /></a>
-                    <a href='https://www.facebook.com/nahuelbracchittamusica' target="_blank" rel="noreferrer"><FiInstagram className='social-icon' /></a>
-                    <a href='https://www.instagram.com/nahuelbracchitta/' target="_blank" rel="noreferrer"><IoLogoYoutube className='social-icon' /></a>
+                    <a href='https://www.facebook.com/nahuelbracchittamusica' target="_blank" rel="noreferrer"><BsFacebook className='social-icon' /></a>
+                    <a href='https://www.instagram.com/nahuelbracchitta/' target="_blank" rel="noreferrer"><FiInstagram className='social-icon' /></a>
+                    <a href='https://www.youtube.com/channel/UCVVeaTpLbXeCXzMwvSFcnXg' target="_blank" rel="noreferrer"><IoLogoYoutube className='social-icon' /></a>
                 </div>
             </div>
 
