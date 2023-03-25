@@ -13,8 +13,36 @@ main {
     flex: 1;
     padding: 0 1rem;
 
+    
+     
+    }
 
-    .home-container{
+    .home{
+        margin-top: 75px;
+    }
+    .section-home{
+        margin-top: 60px;
+        margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+                  h3{
+        text-align: center;
+        margin-bottom: 30px;
+        color: $color-4;
+       }
+       h5{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 30px;
+       }
+            }
+
+            
+
+    .section-home{
         margin-top: 60px;
         margin-left: 10px;
             margin-right: 10px;
@@ -56,37 +84,96 @@ main {
         
         }
 
-        @media (min-width: 992px){
-                
-                margin-top: 100px;
-        margin-right: 10px;
-        display: grid;
-        grid-template-areas: "p p p img";
-        align-items: center;
-        justify-items: center;
-        height: 100%;
-        p {
-            grid-area: "p";
-            font-size: 19px;
-            padding-left: 30px;
-           text-align: start;
-            
-            
-            
-            
+        
         }
-        img{
-            grid-area: 'img';
-            width: 350px;
-            filter: sepia(70%);
-            border-radius: 10px;
-            margin-bottom: 0px;
-        }
-        }
-        }
-    }
     
+      #section-trumpet{
+       
+        @media (min-width: 992px){
+            
+            p {
+                grid-area: "p";
+                font-size: 19px;
+                padding-left: 30px;
+               text-align: start;
+                
+                
+                
+                
+            }
+        }
+        
+      }
+      #section-cassibba{
+       
+        @media (min-width: 992px){
+            
+            p {
+                grid-area: "p";
+                font-size: 19px;
+                padding-left: 30px;
+               text-align: start;
+                
+                
+                
+                
+            }
+        }
+        
+      }
 
+.video-home{
+    border-radius: 10px;
+    filter: sepia(50%);
+    &:hover{
+        filter: sepia(0%);
+    }
+    @media (min-width: 768px){
+        height: 280px;
+        width: 500px;
+    }
+}
+
+#home-bio{
+    margin-bottom: 100px;
+    @media (min-width: 992px){
+                
+        margin-top: 100px;
+margin-right: 10px;
+display: grid;
+grid-template-areas: "p p p img";
+align-items: center;
+justify-items: center;
+height: 100%;
+p {
+    grid-area: "p";
+    font-size: 19px;
+    padding-left: 30px;
+   text-align: start;
+    
+    
+    
+    
+}
+img{
+    grid-area: 'img';
+    width: 350px;
+    filter: sepia(70%);
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+}
+}
+
+
+#nb{
+    margin-top: 60px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: $color-4;
+        
+       
+}
     // .home-container{
     //     padding-top: 120px;
     //     padding-left: 100px;
