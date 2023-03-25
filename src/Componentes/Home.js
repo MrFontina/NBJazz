@@ -16,6 +16,12 @@ function Home({ isOpen }) {
 
         <div className='home'>
 
+          <div className='section-home'>
+          <h3>Frases para un II V I</h3>
+          <p>Estas tres frases son de el genial guitarrista <span>Charles Altura</span></p>
+          <iframe width="300" height="169" src="https://www.youtube.com/embed/TuZK0UbmaXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
+          </div>
+
         <div className='section-home' id='section-trumpet'>
           
           <h3>Festival of New Trumpet Music</h3>
