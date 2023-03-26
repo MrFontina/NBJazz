@@ -18,14 +18,14 @@ function Home({ isOpen }) {
 
           <div className='section-home'>
           <h3>Frases para un II V I</h3>
-          <p>Estas tres frases son de el genial guitarrista <span>Charles Altura</span></p>
+          <p className='p-home'>Estas tres frases son de el genial guitarrista <span>Charles Altura</span>fueron transcriptas de su solo en el Blues de Charlie Parker: Cheryl. Y se pueden aplicar sobre un II V I</p>
           <iframe width="300" height="169" src="https://www.youtube.com/embed/TuZK0UbmaXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
           </div>
 
         <div className='section-home' id='section-trumpet'>
           
           <h3>Festival of New Trumpet Music</h3>
-          <p>Participamos en el festival con el grupo de la trompetista y compositora <span>Jeanette Nenezian</span>!!</p>
+          <p className='p-home'>Participamos en el festival internacional New Trumpet Fest, dirigido por Dave Douglas, con el grupo de la trompetista y compositora <span>Jeanette Nenezian</span>!!</p>
           <iframe width="300" height="169" src="https://www.youtube.com/embed/nj-snV7HNV8?start=1114" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
 
           
@@ -34,7 +34,7 @@ function Home({ isOpen }) {
     <div className='section-home' id='section-cassibba'>
 
     <h3>Hernan Cassibba Grupo</h3>
-    <p>Primer video adelanto del próximo disco</p>
+    <p className='p-home'>Primer video adelanto del próximo disco, que saldra en abril en todas las plataformas</p>
           <iframe width="300" height="169" src="https://www.youtube.com/embed/jzl8EOtYhkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
 
 
@@ -48,9 +48,9 @@ function Home({ isOpen }) {
             <div className='home-p'>
             
               <p>
-                ¡Hola! Soy Nahuel Bracchitta, guitarrista de <span>jazz</span>. Participo activamente de la vibrante escena del jazz de la ciudad de <span>Buenos Aires</span>, tanto con mi proyecto personal asi como colaborando con algunos de mis músicos favoritos!<br />
+                ¡Hola! Soy Nahuel Bracchitta, guitarrista de <strong>jazz</strong>. Participo activamente de la vibrante escena del jazz de la ciudad de <strong>Buenos Aires</strong>, tanto con mi proyecto personal asi como colaborando con algunos de mis músicos favoritos!<br />
 
-                A lo largo de los años, he adquirido una gran cantidad de conocimientos sobre el arte de tocar la guitarra y la teoría musical. Desde hace 15 años me dedico a dar <span>clases</span> de <span> guitarra</span> e <span>improvisación</span>, tanto <span>presenciales</span> como <span>virtuales para todo el mundo</span>.
+                A lo largo de los años, he adquirido una gran cantidad de conocimientos sobre el arte de tocar la guitarra y la teoría musical. Desde hace 15 años me dedico a dar <strong>clases</strong> de <strong> guitarra</strong> e <strong>improvisación</strong>, tanto <strong>presenciales</strong> como <strong>virtuales para todo el mundo</strong>.
                 <br />
                 Mi objetivo es ayudar a otros músicos a desarrollar sus habilidades y alcanzar sus objetivos artísticos, sin importar su nivel de experiencia.
               </p>

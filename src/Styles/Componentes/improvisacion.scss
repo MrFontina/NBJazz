@@ -82,6 +82,10 @@
     p span {
         color: $color-4;
     }
+    strong{
+        color: $color-4;
+        font-weight: 510;
+    }
 
     @media (min-width: 768px) {
         margin-right: 40px;
