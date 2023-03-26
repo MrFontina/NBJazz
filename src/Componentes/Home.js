@@ -18,7 +18,7 @@ function Home({ isOpen }) {
 
           <div className='section-home'>
           <h3>Frases para un II V I</h3>
-          <p className='p-home'>Estas tres frases son de el genial guitarrista <span>Charles Altura</span>fueron transcriptas de su solo en el Blues de Charlie Parker: Cheryl. Y se pueden aplicar sobre un II V I</p>
+          <p className='p-home'>Estas tres frases son de el genial guitarrista <span>Charles Altura</span> fueron transcriptas de su solo en el Blues de Charlie Parker: Cheryl. Y se pueden aplicar sobre un II V I</p>
           <iframe width="300" height="169" src="https://www.youtube.com/embed/TuZK0UbmaXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
           </div>
 
