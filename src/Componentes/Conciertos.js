@@ -24,7 +24,7 @@ function Conciertos({ isOpen }) {
         lugar="Sheikob Bagels"
         hora="20 hs"
         direccion="Uriarte 1386, Palermo"
-        entrada="Al sobre"
+        entrada="$1200"
         />
         <CardFechas
         title="HERNAN CASSIBBA GRUPO"
