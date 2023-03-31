@@ -62,6 +62,7 @@ function Header({ isOpen, setIsOpen }) {
                             <Link to='musica' className='navLink'>MÚSICA</Link>
                             <Link to='conciertos' className='navLink'>CONCIERTOS</Link>
                             <Link to='about' className='navLink'>SOBRE MI</Link>
+                            <Link to='/' className='navLink'>HOME</Link>
 
                         </Nav>
                     </Navbar.Collapse>

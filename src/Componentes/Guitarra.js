@@ -4,11 +4,12 @@ function Guitarra({ isOpen }) {
   return (
     <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
       <h3 className='subtitle'>CLASES DE GUITARRA</h3>
+      <h4 className='h4-online'>ONLINE</h4>
       <div className='container-guitarra'>
         <img src='../../Images/guitarracontrapedales.jpg' className='guitarra-pic'   alt='guitarra y contrabajo' id='guitarra-title'></img>
         <p id='guit-p-1'>
           En mis clases de guitarra, me enfoco en diseñar un plan de estudio personalizado para cada estudiante, adaptado a sus intereses musicales, su disponibilidad horaria y sus objetivos. Este enfoque permite que las clases sean más efectivas y que los estudiantes puedan avanzar de manera más rápida y consistente.</p>
-        <img src='../../Images/guitarra.jpg' className='guitarra-pic' alt='guitarra y pedales' id='guitarra-vertical'></img>
+        <img src='../../Images/ukelele.jpg' className='guitarra-pic' alt='Nahuel Bracchitta y Hernan Cassibba en un show' id='guitarra-vertical'></img>
     <div id='guit-grid-medio'>
       <p > Entre los temas que podemos trabajar juntos, se incluyen: </p>
         <ul >
@@ -36,7 +37,7 @@ function Guitarra({ isOpen }) {
         
         <img src='../../Images/riendo.jpg' className='guitarra-pic' alt='nahuel bracchitta y hernan cassibba' id='riendo'></img>
         <p id='guit-p-3'>
-          Además, las clases de guitarra también incluyen todo el contenido de las clases de improvisación, para que puedas aplicar todo lo que aprendas en contextos musicales reales y desarrollar tus habilidades como improvisador.
+          Además, las clases de guitarra también incluyen todo el contenido de las clases de improvisación, para que puedas aplicar todo lo que aprendas en contextos musicales reales y desarrollar tus habilidades como <strong>improvisador</strong>.
         </p>
       </div>
     </main>
