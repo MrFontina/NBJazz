@@ -16,6 +16,12 @@ function Home({ isOpen }) {
 
         <div className='home'>
 
+        <div className='section-home'>
+          <h3>Anti-Alergico</h3>
+          <p className='p-home'>Adelanto del nuevo disco de <span>Hernán Cassibba</span>.<br/> Released on <a href='https://earsandeyesrecords.bandcamp.com/' target="_blank" rel="noreferrer" style={{color: "#F9A602"}}>ears&eyes Records</a> April 21st, 2023. </p>
+          <iframe width="300" height="169" src="https://www.youtube.com/embed/4jfIeE8bV0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='video-home'></iframe>
+          </div>
+
           <div className='section-home'>
           <h3>Rhythm Changes</h3>
           <p className='p-home'>Trabajando algunas ideas de improvisación sobre la progresion de <span>rhythm changes</span>. </p>

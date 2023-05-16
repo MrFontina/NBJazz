@@ -7,6 +7,17 @@ function Musica({ isOpen }) {
     <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
       <h3 className='subtitle'>MÚSICA</h3>
       <div className='container-discos'>
+      <CardDiscos
+          title="Nuevos Aires"
+          subtitle="HERNAN CASSIBBA GRUPO"
+          img="../../Images/discos/nuevosaires.jpg"
+          alt="Hernan Cassibba gutpo tapa del disco Homenaje"
+          description="   
+          Segundo disco del contrabajista Hernán Cassibba. Grabado en el 2022 en Estudios Doctor F. Partciparon Lucas Goicochea en saxo alto, Gonzalo Rodriguez Vicente en saxo tenor, Nahuel Bracchitta en guitarra, Leonel Duck en piano, Hernán Cassibba en contrabajo y Matias Crouzellies en batería."
+          
+          bandcamp="https://hernancassibba.bandcamp.com/album/nuevos-aires"
+          
+        />
         <CardDiscos
           title="MENTES"
           subtitle="NAHUEL BRACCHITTA TRÍO"

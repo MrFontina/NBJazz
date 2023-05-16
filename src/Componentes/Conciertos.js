@@ -6,26 +6,17 @@ function Conciertos({ isOpen }) {
     <main className={`main-section  ${isOpen ? "" : "main-section-no-margin"}`}>
       <h3 className='subtitle'>CONCIERTOS</h3>
       <div className='container-conciertos'>
-        <CardFechas
-        title="Omar Menendez Trio"
-        description="El trio interpreta standards de jazz."
-        integrantes={[<span>Batería: </span>, "Omar Menendez", <br/>, <span>Bajo:  </span>,"Gonzalo Aldas", <br/>,<span>Guitarra:</span>, " Nahuel Bracchitta"]}
-        fecha="24/3"
-        lugar="Bar de Fondo"
-        hora="21:30 hs"
-        direccion="Julian Alvarez 1200, Palermo"
-        entrada="Al sobre"
+      <CardFechas
+        title="CAROLINA SANTOS TRIO"
+        description="Jazz standards."
+        integrantes={[<span>Voz: </span>, "Carolina Santos", <br/>, <span>Guitarra:  </span>,"Germán Damianich", <br/>,<span>Guitarra:</span>, " Nahuel Bracchitta"]}
+        fecha="19/5"
+        lugar="Museo fotográfico Simik"
+        hora="21 hs"
+        direccion=" LACROZE, FEDERICO AV. 3901"
+        entrada=""
         />
-        <CardFechas
-        title="Jeanette Nenezian Grupo"
-        description="Presentación del disco Alepo"
-        integrantes={[<span>Batería: </span>, "Andres Dellacasa", <br/>, <span>Bajo:  </span>,"Estaban Freytes", <br/>,<span>Guitarra:</span>, " Nahuel Bracchitta", <br/>, <span>Trompeta:</span>, "Jeanette Nenezian", <br/>, <span>Voz: </span>, "Juana Sallies"]}
-        fecha="30/3"
-        lugar="Sheikob Bagels"
-        hora="20 hs"
-        direccion="Uriarte 1386, Palermo"
-        entrada="$1200"
-        />
+        
         <CardFechas
         title="HERNAN CASSIBBA GRUPO"
         description="Presentación del segundo disco."
@@ -34,6 +25,27 @@ function Conciertos({ isOpen }) {
         lugar="Virasoro Bar"
         hora="21:30 hs"
         direccion="Guatemala 4328, Palermo"
+        entrada=""
+        />
+
+<CardFechas
+        title="HERNAN CASSIBBA GRUPO"
+        description="Presentación del segundo disco."
+        integrantes={[<span>Batería: </span>, "Matias Crouzeilles", <br/>, <span>Contrabajo:  </span>,"Hernan Cassibba", <br/>,<span>Guitarra:</span>, " Nahuel Bracchitta", <br/>, <span>Saxo tenor:</span>, "Gonzalo Vicente", <br/>, <span>Saxo alto:</span>, "Lucas Goycoechea" ]}
+        fecha="17/6"
+        lugar="BORGES"
+        hora="21:30 hs"
+        direccion="Borges 1985, Palermo"
+        entrada=""
+        />
+        <CardFechas
+        title="HERNAN CASSIBBA GRUPO"
+        description="Presentación del segundo disco."
+        integrantes={[<span>Batería: </span>, "Matias Crouzeilles", <br/>, <span>Contrabajo:  </span>,"Hernan Cassibba", <br/>,<span>Guitarra:</span>, " Nahuel Bracchitta", <br/>, <span>Saxo tenor:</span>, "Gonzalo Vicente", <br/>, <span>Saxo alto:</span>, "Lucas Goycoechea" ]}
+        fecha="26/7"
+        lugar="BORGES"
+        hora="21:30 hs"
+        direccion="Borges 1985, Palermo"
         entrada=""
         />
 
