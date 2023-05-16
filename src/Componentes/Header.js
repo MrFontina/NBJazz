@@ -26,7 +26,7 @@ function Header({ isOpen, setIsOpen }) {
                     <Link className='navLink' to='/'>
                         <h1>NAHUEL BRACCHITTA</h1>
                     </Link>
-                    <h2>GUITARRISTA DE JAZZ, EDUCADOR </h2>
+                    <h2>GUITARRISTA DE JAZZ</h2>
                 </div>
                 <div className='redes-container'>
                     <a href='https://www.facebook.com/nahuelbracchittamusica' target="_blank" rel="noreferrer"><BsFacebook className='social-icon' /></a>
