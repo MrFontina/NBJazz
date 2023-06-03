@@ -8,10 +8,22 @@ function Musica({ isOpen }) {
       <h3 className='subtitle'>MÚSICA</h3>
       <div className='container-discos'>
       <CardDiscos
+          title="INVITATION"
+          subtitle="Bracchitta - Freytes - Cava"
+          img="../../Images/discos/invitation.png"
+          alt="Tapa del disco invitation"
+          description="   
+          Disco de standards en formato trio. Grabado en el 2022 en estudio Insigno. Nahuel Bracchitta en guitarra, Esteban Freytes en contrabajo y bajo eléctrico y Juan Cava en batería."
+          spotify="https://open.spotify.com/album/43Nj92fN863ISuR0QocmXZ?si=bMYVUMsZToGFpGRYuo9P4Q"
+          youtube="https://youtube.com/playlist?list=OLAK5uy_nlgbmNq4tgLWFRL-9xd8ceARhEHGdmwGw"
+          
+          
+        />
+      <CardDiscos
           title="Nuevos Aires"
           subtitle="HERNAN CASSIBBA GRUPO"
           img="../../Images/discos/nuevosaires.jpg"
-          alt="Hernan Cassibba gutpo tapa del disco Homenaje"
+          alt="Hernan Cassibba grupo tapa del disco Homenaje"
           description="   
           Segundo disco del contrabajista Hernán Cassibba. Grabado en el 2022 en Estudios Doctor F. Partciparon Lucas Goicochea en saxo alto, Gonzalo Rodriguez Vicente en saxo tenor, Nahuel Bracchitta en guitarra, Leonel Duck en piano, Hernán Cassibba en contrabajo y Matias Crouzellies en batería."
           
