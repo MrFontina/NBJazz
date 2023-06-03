@@ -20,7 +20,7 @@ function Musica({ isOpen }) {
           
         />
       <CardDiscos
-          title="Nuevos Aires"
+          title="NUEVOS AIRES"
           subtitle="HERNAN CASSIBBA GRUPO"
           img="../../Images/discos/nuevosaires.jpg"
           alt="Hernan Cassibba grupo tapa del disco Homenaje"
