@@ -9,7 +9,7 @@ function Musica({ isOpen }) {
       <div className='container-discos'>
       <CardDiscos
           title="INVITATION"
-          subtitle="Bracchitta - Freytes - Cava"
+          subtitle="BRACCHITTA - FREYTES - CAVA"
           img="../../Images/discos/invitation.png"
           alt="Tapa del disco invitation"
           description="   
