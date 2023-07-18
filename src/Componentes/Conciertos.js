@@ -11,7 +11,7 @@ function Conciertos({ isOpen }) {
       <CardFechas
           title="Agustina Ocampo Trio"
           description="Standards"
-          integrantes={[<span>Voz:</span>, "Agustina Ocampo", <span>Contrabajo:  </span>, "Esteban Freytes", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
+          integrantes={[<span>Voz:</span>, "Agustina Ocampo", <br />, <span>Contrabajo:  </span>, "Esteban Freytes", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
           fecha="21/7"
           lugar="Tecnopolis"
           hora="14 hs"
