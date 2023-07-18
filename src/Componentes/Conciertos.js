@@ -9,7 +9,7 @@ function Conciertos({ isOpen }) {
 
 
       <CardFechas
-          title="Agustin Ocampo Trio"
+          title="Agustina Ocampo Trio"
           description="Standards"
           integrantes={[<span>Voz:</span>, "Agustina Ocampo", <span>Contrabajo:  </span>, "Esteban Freytes", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
           fecha="21/7"
