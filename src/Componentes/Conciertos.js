@@ -72,7 +72,7 @@ function Conciertos({ isOpen }) {
          
         <CardFechas
           title="Nahuel Bracchitta Trio"
-          description="Musica orginal"
+          description="Musica original"
           integrantes={[<span>Batería: </span>, "Andres Dellacasa", <br />, <span>Contrabajo:  </span>, "Gabriel Balado", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
           fecha="19/8"
           lugar="AFTER JAM"
@@ -91,8 +91,8 @@ function Conciertos({ isOpen }) {
           entrada=""
         />
         <CardFechas
-          title="Bracchitta - Scala - Crouzeilles"
-          description="Standards"
+          title="Nahuel Bracchitta Trio"
+          description="Música original"
           integrantes={[<span>Batería: </span>, "Matias Crouzeilles", <br />, <span>Contrabajo:  </span>, "Agustin Scala", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
           fecha="25/8"
           lugar="ECEM - Mar del Plata"
