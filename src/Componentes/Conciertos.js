@@ -38,6 +38,26 @@ function Conciertos({ isOpen }) {
           direccion="Lavalle 3633"
           entrada=""
         />
+        <CardFechas
+          title="Bracchitta, Pauta, Botta"
+          description="Standards"
+          integrantes={[<span>Batería: </span>, "Giulana Botta", <br />, <span>Contrabajo:  </span>, "Gustavo Pauta", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
+          fecha="10/8"
+          lugar="Las divines"
+          hora="21:30 hs"
+          direccion="Araoz 1932"
+          entrada=""
+        />
+          <CardFechas
+          title="Duo Passini - Bracchitta"
+          description="Standars"
+          integrantes={[<span>Guitarra: </span>, "Pablo Passini", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
+          fecha="18/8"
+          lugar="Bar de fondo"
+          hora="21:00 hs"
+          direccion="Julian Alvarez 1200"
+          entrada=""
+        />
         
         <CardFechas
           title="HERNAN CASSIBBA GRUPO"
