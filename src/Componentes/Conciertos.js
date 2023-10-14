@@ -100,7 +100,49 @@ function Conciertos({ isOpen }) {
           direccion="La Rioja 2065"
           entrada=""
         />
-       
+
+<CardFechas
+          title="Jeanette Nenezian Grupo"
+          description="Presentación del disco Alepo."
+          integrantes={[<span>Batería: </span>, "Andres Dellacasa", <br />, <span>Bajo:  </span>, "Esteban Freytes", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />, <span>Trompeta:</span>, "Jeanette Nenezian", <br />, <span>Voz:</span>, "Juana Sallies"]}
+          fecha="8/10"
+          lugar="Festival de jazz de Olavarria"
+          hora="20 hs"
+          direccion="Teatro de Olavarria"
+          entrada="Gratis"
+        />
+
+<CardFechas
+          title="HERNAN CASSIBBA GRUPO"
+          description="Presentación del segundo disco."
+          integrantes={[<span>Batería: </span>, "Matias Crouzeilles", <br />, <span>Contrabajo:  </span>, "Hernan Cassibba", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />, <span>Saxo tenor:</span>, "Gonzalo Vicente", <br />, <span>Saxo alto:</span>, "Lucas Goycoechea"]}
+          fecha="12/10"
+          lugar="Borges 1975"
+          hora="21 hs"
+          direccion="Borges 1975"
+          entrada=""
+        />
+       <CardFechas
+          title="Bracchitta Cassibba Vicente"
+          description="Standards"
+          integrantes={[<span>Batería: </span>, "Martin Vicente", <br />, <span>Contrabajo:  </span>, "Hernan Cassibba", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
+          fecha="13/10"
+          lugar="Backroom"
+          hora="19:00 hs"
+          direccion="Borges 1975"
+          entrada=""
+        />
+
+<CardFechas
+          title="Bracchitta - Scala - Crouzeilles"
+          description="Standards"
+          integrantes={[<span>Batería: </span>, "Matias Crouzeilles", <br />, <span>Contrabajo:  </span>, "Agustin Scala", <br />, <span>Guitarra:</span>, " Nahuel Bracchitta", <br />]}
+          fecha="18/8"
+          lugar="Budabarbs"
+          hora="21:00 hs"
+          direccion="Costa Rica 465"
+          entrada=""
+        />
 
       </div>
     </main>
